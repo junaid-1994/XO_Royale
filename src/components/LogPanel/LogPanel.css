@@ -1,0 +1,39 @@
+.log-panel {
+  margin-top: 24px;
+  background: rgba(17, 24, 39, 0.76);
+  border: 1px solid rgba(255, 214, 107, 0.18);
+  border-radius: 18px;
+  padding: 18px 20px;
+}
+
+.log-header h2 {
+  margin: 0 0 12px;
+  font-size: 1rem;
+  letter-spacing: 0.14rem;
+  text-transform: uppercase;
+  color: #d9bc6a;
+}
+
+.log-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: auto;
+  overflow-y: auto;
+}
+
+.log-list li {
+  background: rgba(32, 44, 66, 0.9);
+  border: 1px solid rgba(140, 163, 203, 0.2);
+  border-radius: 10px;
+  padding: 0.8rem 0.9rem;
+  color: #edf3ff;
+}
+
+.log-empty {
+  color: #b0bfdc;
+  font-style: italic;
+}
