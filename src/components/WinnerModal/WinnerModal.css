@@ -1,0 +1,31 @@
+.winner-modal {
+  width: min(480px, calc(100% - 32px));
+  background: linear-gradient(180deg, rgba(19, 29, 46, 0.98), rgba(10, 17, 28, 1));
+  border: 1px solid rgba(245, 198, 85, 0.35);
+  border-radius: 24px;
+  padding: 28px 24px 22px;
+  text-align: center;
+  box-shadow: 0 24px 60px rgba(8, 12, 22, 0.55);
+}
+
+.modal-badge {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.winner-modal h3 {
+  margin: 0;
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  color: #fbf8f1;
+}
+
+.winner-modal p {
+  margin-top: 10px;
+  color: #c9d7ef;
+  line-height: 1.6;
+}
+
+.winner-modal .rematch-button {
+  margin-top: 18px;
+  width: 100%;
+}
